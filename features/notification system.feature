@@ -15,6 +15,6 @@ When: faço algo!
 Then: modifico algoo.
 
 cenário mega fake 4:
-Given: estou em algo
-When: faço algo!
-Then: modifico algo.
+Given: estou em algo //Corrigindo uma caracteristica
+When: faço algo! //Corrigindo uma caracteristica
+Then: modifico algo. //Corrigindo uma caracteristica
