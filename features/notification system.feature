@@ -2,7 +2,7 @@ Feature: Notification System by: Diogo
 cenário fake 1:
 Given: estou em algo
 When: faço algo!
-Then: modifico algo
+Then: modifico algo, questao 7.
 
 cenário fake 2:
 Given: estou em algo
