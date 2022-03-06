@@ -13,3 +13,8 @@ cenário super fake 3:
 Given: estou em algo
 When: faço algo!
 Then: modifico algoo.
+
+cenário mega fake 4:
+Given: estou em algo
+When: faço algo!
+Then: modifico algo.
