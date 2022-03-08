@@ -10,4 +10,13 @@ Scenario: Atualizacao de Usuario Realizada
    When o usuário altera o telefone para "81123456789"
    And o usuario confima a senha "senhacorreta"
    Then telefone é alterado e aparece a mensagem "informacoes atualizadas com sucesso"
+ 
+Scenario: Atualizacao de Usuario Não Realizada (senha incorreta)
+   Given que o usuario esta na pagina de perfil
+   And seja escolhida a opção editar
+   When o usuário altera o telefone para "81123456787"
+   And o usuario digita a senha "senhaerrada"
+   Then telefone não é alterado e aparece a mensagem "senha incorreta"
+
+
 
